@@ -1,6 +1,16 @@
 /**
- * this is demo
+ * ===========================================================================
+ * Copyright Adam Sample code
+ * All Rights Reserved
+ * ===========================================================================
+ * 
+ * File Name: ReferenceTest.java
+ * Brief: 
+ * 
+ * Author: AdamChen
+ * Create Date: 2018/1/18
  */
+
 package com.adam.app.reference.demo;
 
 import java.util.ArrayList;
@@ -28,7 +38,7 @@ public class ReferenceTest {
             
         } catch (OutOfMemoryError e) {
             
-            System.out.println("out of memory");
+            Utils.print("out of memory");
             
         }
         
